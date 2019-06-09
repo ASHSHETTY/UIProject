@@ -1,0 +1,23 @@
+body{
+	background-color: grey;
+}
+
+@media only screen and (max-width: 600px){
+	body{
+		background-color: lightgrey;
+	}
+}
+
+.flex-container {
+	display: flex;
+}
+
+.flex-container > div {
+	margin: 10px;
+	padding: 20px;
+	font-size: 30px;
+}
+
+nav{
+	display: block;
+}
