@@ -1,0 +1,38 @@
+#title{
+  text-align: center;
+  font-family: "Times New Roman";
+  font-style: italic;
+  font-weight: bold;
+  font-size: 3vw;
+  text-decoration: underline;
+  
+}
+h3{
+  text-align: center;
+  font-family: "Times New Roman";
+  font-style: Normal;
+  font-weight: normal;
+}
+#img-caption{
+  text-align: center
+}
+#tribute-info{
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: large;
+}
+#img-caption{
+  
+}
+.responsive{
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+li{
+  font-size: large;
+}

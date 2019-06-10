@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="SurveyForm.css">
+</head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Let us know how we can improve FreeCodeCamp</p>
+    <form id="survey-form">
+    <p>  <br>Name: <input type="text" name="Name" value="" placeholder="Enter your name" class="required"></br>
+    <br>Email: <input type="text" name="Email" value="" placeholder="Enter your email" class="required"></br>
+  <br>Age: <input type="number" name="Age" value="" placeholder="Enter your age" class="required"></br>
+<br> Which option best describes your current role?
+<select placeholder="Select an option">
+  <option value="Student">Student</option>
+  <option value="FullTimeJob">Full Time Job</option>
+  <option value="FullTimeLearner">Full Time Learner</option>
+  <option value="Prefernottosay">Prefer not to say</option>
+  <option value="Other">Other</option>
+</select>
+</br>
+<br class="required">How likely is that you would recommend freeCodeCamp to a friend?
+<input type="radio" name="Recommend" value="Definitely">Definitely
+<input type="radio" name="Recommend" value="Maybe">Maybe
+<input type="radio" name="Recommend" value="Notsure">Not sure
+</br>
+<br>What do you like most in FCC:
+<input list="FCC" name="FCC">
+<datalist id="FCC">
+  <option value="Challenges">Challenges</option>
+  <option value="Projects">Projects</option>
+  <option value="Community">Community</option>
+  <option value="Open Source">Open Source</option>
+</datalist>
+</br>
+<br>Things that should be improved in the future (Check all that apply):
+<br><input type="checkbox" name="Projects" value="Front-end Projects">Front-end Projects</br>
+<br><input type="checkbox" name="Projects" value="Back-end Projects">Back-end Projects</br>
+<br><input type="checkbox" name="Projects" value="Data Visualization">Data Visualization</br>
+<br><input type="checkbox" name="Projects" value="Challenges">Challenges</br>
+<br><input type="checkbox" name="Projects" value="Open Source Community">Open Source Community</br>
+<br><input type="checkbox" name="Projects" value="Gitter help rooms">Gitter help rooms</br>
+<br><input type="checkbox" name="Projects" value="Videos">Videos</br>
+<br><input type="checkbox" name="Projects" value="City Meetups">City Meetups</br>
+<br><input type="checkbox" name="Projects" value="Wiki">Wiki</br>
+<br><input type="checkbox" name="Projects" value="Forum">Forum</br>
+<br><input type="checkbox" name="Projects" value="Additional Courses">Additional Courses</br>
+</br>
+<br>Any Comments or Suggestions?
+<textarea row="10" column="100" name="comment">Enter your comment here...</textarea
+  </br>
+  <br>
+   <input type="submit" value="Submit">
+  </br>
+  </p>
+</form>
+</body>
+</html>
