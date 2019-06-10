@@ -1,0 +1,57 @@
+html,body {
+height : 100vh;
+}
+
+#welcome-section{
+	width:100%;
+	text-align: center;
+	background-color: Linen;
+	font-family: Georgia;
+	font-size: 25px;
+  padding-top: 0px;
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+li {
+  display: block;
+  float: right;
+}
+
+#projects{
+	height: 25%;
+	width:100%;
+	text-align: center;
+	padding:75px 5px 250px 20px;
+	background-color: white;
+	font-family: Georgia;
+	font-size: 25px;
+}
+
+#Github{
+	height: 25%;
+	width:100%;
+	text-align: center;
+	padding:10px 5px 1px 20px;
+	background-color: lightblue;
+	font-family: Georgia;
+	font-size: 20px;
+}
+
+@media screen and (min-width: 600px){
+	#welcome-section{
+	background-color: Linen;
+	}
+}
+
+#navbar{
+	font-size: 20px;
+	font-family: Times New Roman;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
