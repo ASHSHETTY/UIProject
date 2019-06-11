@@ -7,11 +7,14 @@
     <h1 id="title">Survey Form</h1>
     <p id="description">Let us know how we can improve FreeCodeCamp</p>
     <form id="survey-form">
-    <p>  <br>Name: <input type="text" name="Name" value="" placeholder="Enter your name" class="required"></br>
-    <br>Email: <input type="text" name="Email" value="" placeholder="Enter your email" class="required"></br>
-  <br>Age: <input type="number" name="Age" value="" placeholder="Enter your age" class="required"></br>
+      <br><label for="name" id="name-label">Name:</label>
+    <input id="name" type="text" name="Name" value="" placeholder="Enter your name" class="required" required></br>
+      <br><label for="email" id="email-label">Email:</label>
+    <input id="email" type="email"pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$" name="Email" value="" placeholder="Enter your email" class="required" required></br>
+      <br><label for="age" id="number-label">Age:</label>
+ <input id="number" type="number" min="1" max="100" name="Age" value="" placeholder="Enter your age" class="required"></br>
 <br> Which option best describes your current role?
-<select placeholder="Select an option">
+<select id="dropdown" placeholder="Select an option">
   <option value="Student">Student</option>
   <option value="FullTimeJob">Full Time Job</option>
   <option value="FullTimeLearner">Full Time Learner</option>
@@ -47,10 +50,10 @@
 <br><input type="checkbox" name="Projects" value="Additional Courses">Additional Courses</br>
 </br>
 <br>Any Comments or Suggestions?
-<textarea row="10" column="100" name="comment">Enter your comment here...</textarea
+<textarea row="10" column="100" name="comment">Enter your comment here...</textarea>
   </br>
   <br>
-   <input type="submit" value="Submit">
+   <input id="submit" type="submit" value="Submit">
   </br>
   </p>
 </form>
